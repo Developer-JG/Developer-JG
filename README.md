@@ -25,4 +25,5 @@ Developer_JG
 <br/>  
 
 
-![Snake animation](https://github.com/Developer_JG/Developer_JG/blob/output/github-contribution-grid-snake.svg)
+
+![snake gif](https://github.com/Developer-JG/Developer-JG/blob/output/github-contribution-grid-snake.svg)
