@@ -5,6 +5,7 @@
 <br/>
 
 <div align="center">
+    
 <img src="https://ww.namu.la/s/2839501fbc5176e912d85abbbd8871c26b55957cf17662e6fda9c28a389cd3fd89177b044cbeaa164624867d9b4b32dcbbbe6a00619b8b41cc250bf807cc443887a0046ea38a2bf58ad08685d53cb5cd995329a1c33275e65213846527721d85">
     
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDeveloper-JG)
@@ -20,7 +21,7 @@
 ## Developer_JG's Github Stats
 
 <div align="center">
-
+    
 ![Developer-JG's github stats](https://github-readme-stats.vercel.app/api?username=Developer-JG&show_icons=true)
 ![Developer-JG's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Developer-JG)
     
@@ -33,7 +34,7 @@
 <div align="center">
     
 ![Developer-JG's trophy](https://github-profile-trophy.vercel.app/?username=Developer-JG&theme=flat&column=8)
-<br/>
+
 ![snake gif](https://github.com/Developer-JG/Developer-JG/blob/output/github-contribution-grid-snake.svg)
 
 </div>
