@@ -40,3 +40,10 @@
 </div>
 
 <img src="https://komarev.com/ghpvc/?username=Developer-JG&&style=flat-square" align="right" />
+
+<div align="right">
+    
+2021 February 14th, Developer_JG written it.
+2022 January 22nd, Developer_JG wrote it again.
+    
+</div>
