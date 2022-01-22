@@ -38,12 +38,15 @@
 ![snake gif](https://github.com/Developer-JG/Developer-JG/blob/output/github-contribution-grid-snake.svg)
 
 </div>
+<br/>
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=Developer-JG&&style=flat-square" align="right" />
 
+<br/>
+
 <div align="right">
     
-2021 February 14th, Developer_JG written it.
-2022 January 22nd, Developer_JG wrote it again.
+#### 2021 February 14th, Developer_JG written it.<br/>2022 January 22nd, Developer_JG wrote it again.
     
 </div>
