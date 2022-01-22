@@ -31,10 +31,14 @@
 
 ## Developer_JG's trophy
 
-<div align="center">
+<div align="right">
     
 ![Developer-JG's trophy](https://github-profile-trophy.vercel.app/?username=Developer-JG&theme=flat&column=8)
 
+</div>
+
+<div align="center">
+    
 ![snake gif](https://github.com/Developer-JG/Developer-JG/blob/output/github-contribution-grid-snake.svg)
 
 </div>
