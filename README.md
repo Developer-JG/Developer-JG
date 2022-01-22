@@ -10,9 +10,6 @@ Developer_JG
 <img src="https://komarev.com/ghpvc/?username=Developer-JG&&style=flat-square" align="right" />
 </div>  
 
-![Snake animation](https://github.com/Developer_JG/Developer_JG/blob/output/github-contribution-grid-snake.svg)
-
-.
 # Github Stats  
 
 <table><tr><td valign="top" width="50%">
@@ -26,3 +23,6 @@ Developer_JG
 </td></tr></table>  
 
 <br/>  
+
+
+![Snake animation](https://github.com/Developer_JG/Developer_JG/blob/output/github-contribution-grid-snake.svg)
