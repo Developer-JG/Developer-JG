@@ -12,6 +12,7 @@ Developer_JG
 
 ![Snake animation](https://github.com/Developer_JG/Developer_JG/blob/output/github-contribution-grid-snake.svg)
 
+.
 # Github Stats  
 
 <table><tr><td valign="top" width="50%">
