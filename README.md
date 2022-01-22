@@ -33,7 +33,7 @@
 <div align="center">
     
 ![Developer-JG's trophy](https://github-profile-trophy.vercel.app/?username=Developer-JG&theme=flat&column=8)
-  
+<br/>
 ![snake gif](https://github.com/Developer-JG/Developer-JG/blob/output/github-contribution-grid-snake.svg)
 
 </div>
