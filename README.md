@@ -31,7 +31,7 @@
 
 ## Developer_JG's trophy
 
-<div align="right">
+<div align="center">
     
 ![Developer-JG's trophy](https://github-profile-trophy.vercel.app/?username=Developer-JG&theme=flat&column=8)
 
