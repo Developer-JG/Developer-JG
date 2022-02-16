@@ -38,10 +38,6 @@
 ![snake gif](https://github.com/Developer-JG/Developer-JG/blob/output/github-contribution-grid-snake.svg)
 
 </div>
-<br/>
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Developer-JG&&style=flat-square" align="right" />
 
 <br/>
 
@@ -56,6 +52,11 @@
 #### [NVIDIA] NVIDIA AI developer meetup (2022/02/24)
 
 </div>
+
+<br/>
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Developer-JG&&style=flat-square" align="right" />
 
 <br/>
 
