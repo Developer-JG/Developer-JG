@@ -29,18 +29,6 @@
 
 <br/>
 
-## Developer_JG's extracurricular activity
-
-<div align="center">
-    
-#### [Samsung Electronics] Samsung Open Source Conference 2019 (2019/10/16 ~ 2019/10/17)
-#### [Samsung Electronics] Bixby Developer Day 2019 (2019/11/21)
-#### [Samsung Electronics] Samsung AI SUMMIT SEOUL 2020 (2020/12/09 ~ 2020/12/11)
-#### [Kili Technology] Kili's Community Challenge - Plastic in River dataset (2022/02/14 ~ 2022/02/18)
-#### [NVIDIA] NVIDIA AI developer meetup (2022/02/24)
-
-</div>
-
 ## Developer_JG's trophy
 
 <div align="center">
@@ -54,6 +42,20 @@
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=Developer-JG&&style=flat-square" align="right" />
+
+<br/>
+
+## Developer_JG's extracurricular activity
+
+<div align="center">
+    
+#### [Samsung Electronics] Samsung Open Source Conference 2019 (2019/10/16 ~ 2019/10/17)
+#### [Samsung Electronics] Bixby Developer Day 2019 (2019/11/21)
+#### [Samsung Electronics] Samsung AI SUMMIT SEOUL 2020 (2020/12/09 ~ 2020/12/11)
+#### [Kili Technology] Kili's Community Challenge - Plastic in River dataset (2022/02/14 ~ 2022/02/18)
+#### [NVIDIA] NVIDIA AI developer meetup (2022/02/24)
+
+</div>
 
 <br/>
 
