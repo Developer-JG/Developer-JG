@@ -41,8 +41,6 @@
 
 <br/>
 
-## Developer_JG's extracurricular activity
-
 <div align="center">
     
 ![SOSCON-2019](https://img.shields.io/badge/Samsung_Open_Source_Conference_2019-1428A0?style=flat-square&logo=Samsung&logoColor=white)
