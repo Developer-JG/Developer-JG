@@ -45,11 +45,17 @@
 
 <div align="center">
     
-#### [Samsung Electronics] Samsung Open Source Conference 2019 (2019/10/16 ~ 2019/10/17)
-#### [Samsung Electronics] Bixby Developer Day 2019 (2019/11/21)
-#### [Samsung Electronics] Samsung AI SUMMIT SEOUL 2020 (2020/12/09 ~ 2020/12/11)
-#### [Kili Technology] Kili's Community Challenge - Plastic in River dataset (2022/02/14 ~ 2022/02/18)
-#### [NVIDIA] NVIDIA AI developer meetup (2022/02/24)
+![SOSCON-2019](https://img.shields.io/badge/Samsung_Open_Source_Conference_2019-1428A0?style=flat-square&logo=Samsung&logoColor=white)
+![BDD-2019](https://img.shields.io/badge/Bixby_Developer_Day_2019-1428A0?style=flat-square&logo=Samsung&logoColor=white)
+![AI-SUMMIT-2020](https://img.shields.io/badge/Samsung_AI_SUMMIT_SEOUL_2020-1428A0?style=flat-square&logo=Samsung&logoColor=white)
+
+![WWDC-20](https://img.shields.io/badge/Apple_WorldWide_Developers_Conference_20-000000?style=flat-square&logo=Apple&logoColor=white)
+![WWDC-21](https://img.shields.io/badge/Apple_WorldWide_Developers_Conference_21-000000?style=flat-square&logo=Apple&logoColor=white)
+
+![NVIDIA-Meetup-22](https://img.shields.io/badge/NVIDIA_AI_developer_meetup_22-76B900?style=flat-square&logo=NVIDIA&logoColor=white)
+
+![Kili-Technology](https://img.shields.io/badge/Kili's_Community_Challenge_"Plastic_in_River_dataset"-E2831E?style=flat-square&logoColor=white)
+
 
 </div>
 
