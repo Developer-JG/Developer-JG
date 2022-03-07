@@ -6,7 +6,7 @@
 
 <div align="center">
     
-<img src="https://ww.namu.la/s/2839501fbc5176e912d85abbbd8871c26b55957cf17662e6fda9c28a389cd3fd89177b044cbeaa164624867d9b4b32dcbbbe6a00619b8b41cc250bf807cc443887a0046ea38a2bf58ad08685d53cb5cd995329a1c33275e65213846527721d85">
+![image](https://user-images.githubusercontent.com/60098615/157060216-16bea7af-dfc2-4db7-b668-1db194c513a1.gif)
     
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDeveloper-JG)
 ![Hits](https://img.shields.io/github/followers/Developer-JG?label=Follow)
