@@ -4,10 +4,6 @@
 ![Hits](https://img.shields.io/github/followers/Developer-JG?label=Follow)
     
 </div>
-
-<br/>
-<br/>
-<br/>
   
 ## Developer_JG's Github Stats
 
