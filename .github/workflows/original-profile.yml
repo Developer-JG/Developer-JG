@@ -59,12 +59,41 @@ jobs:
           outputs: |
             profile-assets/github-contribution-grid-snake.svg
 
-      - name: Commit and push generated images
+      - name: Commit and push generated images (retry on remote updates)
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-assets/*.svg
-          if ! git diff --cached --quiet; then
+
+          # Preserve the freshly generated images while synchronizing main.
+          temp_dir="$(mktemp -d)"
+          trap 'rm -rf "$temp_dir"' EXIT
+          cp profile-assets/*.svg "$temp_dir/"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard FETCH_HEAD
+            mkdir -p profile-assets
+            cp "$temp_dir"/*.svg profile-assets/
+            git add profile-assets/*.svg
+
+            if git diff --cached --quiet; then
+              echo "Generated images are already up to date."
+              exit 0
+            fi
+
             git commit -m "chore: update original GitHub profile images"
-            git push
-          fi
+            if git push origin HEAD:main; then
+              echo "Profile images pushed successfully."
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 5 ]; then
+              echo "Push rejected; remote moved. Retrying after fetching the latest main ($attempt/5)."
+              sleep "$((attempt * 2))"
+            fi
+          done
+
+          echo "::error::Unable to push generated images after 5 attempts. Check branch protection and write permissions."
+          exit 1
