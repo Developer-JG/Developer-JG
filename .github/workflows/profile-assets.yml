@@ -1,0 +1,97 @@
+name: Update GitHub Profile Cards
+
+# Save stats and trophy images in this repository instead of hotlinking
+# third-party public API deployments, which may be paused or rate-limited.
+on:
+  schedule:
+    - cron: '17 3 * * *' # UTC; daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-assets.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-cards
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Stats - restored (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=false
+          path: profile-assets/stats-default.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Languages - restored (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default
+          path: profile-assets/langs-default.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats - research minimal
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true&title_color=344B62&icon_color=6883A0
+          path: profile-assets/stats-minimal.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Languages - research minimal
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default&hide_border=true&title_color=344B62
+          path: profile-assets/langs-minimal.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats - cyber terminal
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true
+          path: profile-assets/stats-cyber.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Languages - cyber terminal
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true
+          path: profile-assets/langs-cyber.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Trophy - restored
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: username=${{ github.repository_owner }}&theme=flat&column=7&row=1
+          path: profile-assets/trophy-default.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed image assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-assets/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh GitHub profile cards"
+            git push
+          fi
