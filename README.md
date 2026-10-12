@@ -6,8 +6,8 @@
 ## Developer_JG's Github Stats
 
 <div align="center">
-  <img height="170" align="top" alt="Developer-JG GitHub Stats" src="./profile-assets/stats.svg" />
-  <img height="170" align="top" alt="Developer-JG Top Languages" src="./profile-assets/languages.svg" />
+  <img height="170" alt="Developer-JG GitHub Stats" src="./profile-assets/stats.svg" />
+  <img height="170" alt="Developer-JG Top Languages" src="./profile-assets/languages.svg" />
 </div>
 
 <br>
