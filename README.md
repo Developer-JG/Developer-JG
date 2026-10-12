@@ -1,13 +1,13 @@
 <div align="right">
   <a href="https://github.com/Developer-JG?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Developer-JG?label=Follow&style=flat" /></a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Developer-JG&style=flat" />
+  <img alt="Profile views" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDeveloper-JG&title=Profile%20views&edge_flat=true" />
 </div>
 
 ## Developer_JG's Github Stats
 
 <div align="center">
-  <img height="170" alt="Developer-JG GitHub Stats" src="./profile-assets/stats.svg" />
-  <img height="170" alt="Developer-JG Top Languages" src="./profile-assets/languages.svg" />
+  <img height="170" align="top" alt="Developer-JG GitHub Stats" src="./profile-assets/stats.svg" />
+  <img height="170" align="top" alt="Developer-JG Top Languages" src="./profile-assets/languages.svg" />
 </div>
 
 <br>
